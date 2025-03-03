@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "web_browser_list.h": "c",
+        "string.h": "c"
+    }
+}
