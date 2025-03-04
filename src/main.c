@@ -22,8 +22,8 @@ void main_menu()
 {
     system(CLEAR);
     printf("\n==== Main Menu ====\n");
-    printf("Software\n");
-    printf("2. List all contacts\n");
+    printf("1. Install Web Browser\n");
+    printf("2. Install Utilities\n");
     printf("3. Search for contact\n");
     printf("4. Edit a contact\n");
     printf("Manuals\n");
