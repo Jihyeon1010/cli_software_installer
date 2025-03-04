@@ -6,9 +6,11 @@
 // Detect the operating system of the user
 #ifdef _WIN32
     #define CLEAR "cls"
+    #define Manager ""
     #define INSTALL_CMD(cmd) "powershell -Command \"Start-Process -Verb RunAs -FilePath winget -ArgumentList '" cmd "'\""
 #elif __APPLE__
     #define CLEAR "clear"
+    #define Manager ""
     #define INSTALL_CMD(cmd) "brew install --cask " cmd
 #elif __linux__
     #define CLEAR "clear"
@@ -23,11 +25,12 @@ void main_menu()
     system(CLEAR);
     printf("\n==== Main Menu ====\n");
     printf("1. Install Web Browser\n");
-    printf("2. Install Utilities\n");
-    printf("3. Search for contact\n");
-    printf("4. Edit a contact\n");
-    printf("Manuals\n");
-    printf("6. Exit\n");
+    printf("2. Install Producivity softwares\n");
+    printf("3. Install Graphics and design softwares\n");
+    printf("4. Development softwares\n");
+    printf("5. Utilities\n");
+    printf("6. Manuals\n");
+    printf("7. Exit\n");
     printf("Select an option: ");
 }
 
