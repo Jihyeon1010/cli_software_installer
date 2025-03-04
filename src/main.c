@@ -24,6 +24,7 @@ void main_menu()
 {
     system(CLEAR);
     printf("\n==== Main Menu ====\n");
+    printf("\n");
     printf("1. Install Web Browser\n");
     printf("2. Install Producivity softwares\n");
     printf("3. Install Graphics and design softwares\n");
@@ -31,6 +32,7 @@ void main_menu()
     printf("5. Utilities\n");
     printf("6. Manuals\n");
     printf("7. Exit\n");
+    printf("\n");
     printf("Select an option: ");
 }
 
@@ -62,6 +64,20 @@ char *web_browsers[] = {
     "Chromium",
     "Waterfox"
 };
+
+// List of Productivity softwares
+char *productivity_softwares[] = {
+    "Microsoft Office",
+    "LibreOffice",
+    "WPS Office",
+    "OnlyOffice",
+    "Google Workspace",
+    "Zoho Workplace",
+    "SoftMaker Office",
+    "FreeOffice",
+    "Calligra Suite",
+    "Apache OpenOffice"
+}; 
 
 int main() 
 {
